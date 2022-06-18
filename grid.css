@@ -1,0 +1,281 @@
+   @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300&family=Lexend+Deca&family=Montserrat&family=Poppins:wght@200;400&display=swap');
+        
+     body{
+       font-size: 15px;
+       font-family: 'Big Shoulders';
+     }
+     
+    .card-body{
+      border: 1px;
+      margin-top: 20vh;
+      margin: auto;
+      max-width: 1200px;
+    }
+     
+     .grid-container{
+       display: grid;
+       border: 1px;
+       margin: auto;
+       max-width: 100%;
+       min-height: 400px;
+       margin-top: 20vh;
+       grid-template-columns: 1fr 1fr 1fr;
+       grid-template-rows: 1fr 1fr 1fr;
+     }
+     
+    .first-card{
+      background-color: hsl(31, 77%, 52%); 
+      padding: 20px;
+     line-height: 2em;
+     text-align: left;
+     height: 30vh;
+    }
+    
+   .second-card{
+     background-color: hsl(184, 100%, 22%);
+     padding: 20px;
+     line-height: 2em;
+     text-align: left;
+     height: 30vh;
+   }
+   
+  .third-card{
+    background-color: hsl(179, 100%, 13%);
+    padding: 20px;
+     line-height: 2em;
+     text-align: left;
+     height: 30vh;
+  }
+  
+ .yellow-text{
+   margin-top: 7vh;
+   padding: 10px;
+   color:hsl(31, 77%, 52%);
+   position: relative;
+ }
+ 
+.cyan-text{
+  color:hsl(184, 100%, 22%);
+  
+}
+
+.dark-cyan-text{
+margin-top: 4em;
+color:hsl(179, 100%, 13%);
+}
+
+button{
+   padding: 10px;
+   width: 150px;
+   border-radius: 2em;
+   font-size: 1em;
+   font-weight: 700;
+   border-color: transparent;
+   background-color:hsl(0, 0%, 95%);
+ }
+ 
+button:hover{
+   background-color: transparent;
+   color:hsl(0, 0%, 95%);
+   Border: 1px solid hsl(0, 0%, 95%);
+ }
+
+.header h1{
+  font-size: 3em;
+  text-transform: uppercase;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: 'Big Shoulders Display';
+}
+
+ p{
+  font-size: 20px;
+  line-height: 1.5em;
+  margin-top: 2em;
+  color: hsla(0, 0%, 100%, 0.75); 
+  text-align: left;
+}
+
+@media screen and (min-width:768px){
+ .header h1{
+   font-size: 4em;
+ }
+ 
+ .cyan-text{
+   position: relative;
+   top: 11em;
+ }
+ 
+ .dark-cyan-text{
+   position: relative;
+   top: 7em;
+ }
+ 
+.yellow-text{
+  position: relative;
+  top: 3.5em;
+}
+
+a{
+  text-decoration: none;
+  color: #F5F5F5;
+  text-transform: uppercase;
+  font-size: 1em;
+  font-family: 'Poppins';
+}
+
+.fa{
+  width: 500px;
+  position: relative;
+  top: 4em;
+  padding: 20px;
+  margin: auto;
+  background-color:hsl(249, 10%, 26%);
+  color: #F5F5F5;
+  border-radius: 1em;
+  margin-left: 2em;
+}
+
+h3{
+    background-color: hsl(249, 10%, 26%);
+    width: 600px;
+    margin: auto;
+    margin-top: 3em;
+    padding: 20px;
+    text-align: center;
+    color: #F5F5F5;
+    border-radius: 1em;
+    font-size: 4em;
+    font-family: 'Poppins';
+  }
+  
+  h3:hover{
+    color: black;
+    background-color: transparent;
+    border: 1px solid hsl(249, 10%, 26%);
+    transition: 2s;
+    letter-spacing: 6px;
+  }
+  
+  a{
+  text-decoration: none;
+  color: #F5F5F5;
+  text-transform: uppercase;
+  font-size: 2.5em;
+  font-family: 'Poppins';
+}
+
+.fa{
+  width: 600px;
+  position: relative;
+  bottom: 3em;
+  padding: 30px;
+  margin: auto;
+  background-color:hsl(249, 10%, 26%);
+  color: #F5F5F5;
+  border-radius: 1em;
+  margin-left: 5em;
+  }
+  
+  .fa:hover{
+      color: black;
+    background-color:hsl(249, 10%, 26%);
+    transition: 2s;
+    letter-spacing: 3px;
+    white-space: nowrap;
+  }
+  
+ .card-body{
+   height: 40vh;
+   margin-top: 10vh;
+ }
+}
+
+
+@media screen and (max-width:600px){
+ .card-body{
+   height: 230vh;
+   width: 100%;
+ }
+ 
+ .grid-container{
+   display: grid;
+   grid-template-columns: 1fr;
+   height: 195vh;
+   width: 100%;
+   margin: auto;
+   max-width: 375px;
+   margin-top: 20vh;
+ }
+ 
+.first-card{
+  height: 60vh;
+}
+
+.second-card{
+  height: 60vh;
+}
+
+.third-card{
+height: 60vh;
+}
+
+p{
+  margin: auto;
+  font-size: 20px;
+  line-height: 2em;
+}
+
+.cyan-text{
+  position: relative;
+  top: 4em;
+}
+
+a{
+  text-decoration: none;
+  color: #F5F5F5;
+  text-transform: uppercase;
+  font-size: 1em;
+  font-family: 'Poppins';
+}
+
+.fa{
+  width: 350px;
+  position: relative;
+  bottom: 3em;
+  padding: 20px;
+  margin: auto;
+  background-color:hsl(249, 10%, 26%);
+  color: #F5F5F5;
+  border-radius: 1em;
+}
+
+ .fa:hover{
+      color: black;
+    background-color:hsl(249, 10%, 26%);
+    transition: 2s;
+    letter-spacing: 3px;
+    white-space: nowrap;
+}
+
+  h3{
+    background-color:hsl(249, 10%, 26%);
+    width: 300px;
+    margin: auto;
+    margin-top: 3em;
+    padding: 15px;
+    text-align: center;
+    color: #F5F5F5;
+    border-radius: 1em;
+    font-size: 2em;
+    font-family: 'Poppins';
+  }
+  
+   h3:hover{
+    color: black;
+    background-color: transparent;
+    border: 1px solid hsl(249, 10%, 26%);
+    transition: 2s;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+  }
+}
